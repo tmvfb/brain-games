@@ -10,7 +10,8 @@ def even_logic():
 
 
 def main():
-    logic('Answer "yes" if the number is even, otherwise answer "no".', even_logic)
+    logic('Answer "yes" if the number is even, otherwise answer "no".',
+          even_logic)
 
 
 if __name__ == '__main__':

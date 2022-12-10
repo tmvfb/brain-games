@@ -8,13 +8,13 @@ def calc_logic():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
     operations = {
-            '+' : operator.add,
-            '-' : operator.sub,
-            '*' : operator.mul,
-               }
+        '+': operator.add,
+        '-': operator.sub,
+        '*': operator.mul
+    }
     math_op = random.choice(list(operations.keys()))
-    number = f'{a} {math_op} {b}'    
-    answer = str(operations[math_op](a, b)) 
+    number = f'{a} {math_op} {b}'
+    answer = str(operations[math_op](a, b))
     return (number, answer)
 
 
