@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Brain games"
+authors = ["Igor Kvachenok <darestade@gmail.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 
 ]
-
+repository = "https://github.com/tmvfb/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
