@@ -5,10 +5,10 @@ from brain_games.game_logic import logic
 
 
 def gcd_logic():
-    a = random.randint(1, 100)
-    b = random.randint(1, 100)
-    number = f'{a} {b}'
-    answer = str(math.gcd(a, b))
+    num_1 = random.randint(1, 100)
+    num_2 = random.randint(1, 100)
+    number = f'{num_1} {num_2}'
+    answer = str(math.gcd(num_1, num_2))
     return (number, answer)
 
 

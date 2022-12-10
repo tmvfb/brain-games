@@ -5,16 +5,16 @@ from brain_games.game_logic import logic
 
 
 def calc_logic():
-    a = random.randint(1, 100)
-    b = random.randint(1, 100)
+    num_1 = random.randint(1, 100)
+    num_2 = random.randint(1, 100)
     operations = {
         '+': operator.add,
         '-': operator.sub,
         '*': operator.mul
     }
     math_op = random.choice(list(operations.keys()))
-    number = f'{a} {math_op} {b}'
-    answer = str(operations[math_op](a, b))
+    number = f'{num_1} {math_op} {num_2}'
+    answer = str(operations[math_op](num_1, num_2))
     return (number, answer)
 
 
