@@ -6,7 +6,7 @@ from brain_games.game_logic import logic
 def even_logic():
     number = random.randint(0, 100)
     answer = 'yes' if number % 2 == 0 else 'no'
-    return (number, answer)
+    return (str(number), answer)
 
 
 def main():

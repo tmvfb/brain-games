@@ -22,8 +22,8 @@ def logic(game_condition, game_numbers):
             print('Correct!')
             count += 1
         else:
-            print(f'{user_answer} is wrong answer ;(.\
-                  Correct answer was {answer}.')
+            print(f"'{user_answer}' is wrong answer ;(. ",
+                  f"Correct answer was '{answer}'.")
             print(f"Let's try again, {name}!")
-            count = 0
+            return
     print(f'Congratulations, {name}!')
