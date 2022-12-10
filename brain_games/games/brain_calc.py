@@ -13,7 +13,7 @@ def calc_logic():
             '*' : operator.mul,
                }
     math_op = random.choice(list(operations.keys()))
-    number = f'{str(a)} {math_op} {str(b)}'    
+    number = f'{a} {math_op} {b}'    
     answer = str(operations[math_op](a, b)) 
     return (number, answer)
 
