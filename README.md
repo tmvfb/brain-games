@@ -30,7 +30,7 @@ Made as a project work for hexlet.io python course.
 
 1. `brain-even` (user answers if the given number is even). [Demo](https://asciinema.org/a/S1vARBiV98lPc0BNLys6)
 2. `brain-calc` (user calculates the result of a given math operation). [Demo](https://asciinema.org/a/JQx457reRs1twdp1Z5ebpeRSv)
-3. `brain-gcd` (user calculates the GCD of give numbers). [Demo](https://asciinema.org/a/JQx457reRs1twdp1Z5ebpeRSv)
-4. `brain-progression` (user calculates the missing element of arithmetic progression). [Demo](https://asciinema.org/a/QsfTKAmq8bLOSNa5UQP76AgSA)
+3. `brain-gcd` (user calculates the GCD of given numbers). [Demo](https://asciinema.org/a/JQx457reRs1twdp1Z5ebpeRSv)
+4. `brain-progression` (user calculates the missing element of an arithmetic progression). [Demo](https://asciinema.org/a/QsfTKAmq8bLOSNa5UQP76AgSA)
 5. `brain-prime` (user answers if the given odd number is prime). [Demo](https://asciinema.org/a/e9VzQ9RiSvSvYql0WvUVxhuLX)
 
