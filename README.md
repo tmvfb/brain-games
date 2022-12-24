@@ -1,9 +1,9 @@
-# python-project-49 (hexlet.io python course)
+brain-games (hexlet.io python course)
 
 [![Actions Status](https://github.com/tmvfb/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/tmvfb/python-project-49/actions) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/ba015e7780e60af4d00d/maintainability)](https://codeclimate.com/github/tmvfb/python-project-49/maintainability)
 
-A set of simple games with numbers. To win in any game, user must complete 3 successful rounds. 
+A set of simple games with numbers. To win at any game, user must complete 3 successful rounds. 
 
 Made as a project work for hexlet.io python course. 
 
