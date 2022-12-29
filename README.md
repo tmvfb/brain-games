@@ -13,9 +13,8 @@ Made as a project work for hexlet.io python course.
 * poetry >=1.2.0
 
 ### Installation:
-1. `make build`
-2. `make install`
-3. `make package-install`
+Clone repository, then `$ make install`
+
 
 ### This project was built using these tools:
 
