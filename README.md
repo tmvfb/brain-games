@@ -5,7 +5,7 @@
 
 A set of simple games with numbers. To win at any game, user must complete 3 successful rounds. 
 
-Made as a project work for hexlet.io python course. 
+Made as a project work for [hexlet.io](https://hexlet.io/) python course. 
 
 ### Prerequisites:
 * Python >=3.8.1
