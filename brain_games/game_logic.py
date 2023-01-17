@@ -1,6 +1,9 @@
 import prompt
 
 
+ROUNDS_NUMBER = 3
+
+
 def greet():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -8,14 +11,12 @@ def greet():
     return name
 
 
-def logic(game_condition, game_numbers):
+def run_game(game):
     name = greet()
     count = 0
-    print(f'{game_condition}')
-    while count < 3:
-        game_mode = game_numbers()
-        number = game_mode[0]
-        answer = game_mode[1]
+    print(f'{game.RULE}')
+    while count < ROUNDS_NUMBER:
+        number, answer = game.number_and_answer()
         print(f'Question: {number}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == answer:
