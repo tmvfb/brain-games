@@ -1,7 +1,7 @@
 # brain-games
 
-[![Actions Status](https://github.com/tmvfb/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/tmvfb/python-project-49/actions) 
-[![Maintainability](https://api.codeclimate.com/v1/badges/ba015e7780e60af4d00d/maintainability)](https://codeclimate.com/github/tmvfb/python-project-49/maintainability)
+[![Actions Status](https://github.com/tmvfb/brain-games/workflows/hexlet-check/badge.svg)](https://github.com/tmvfb/brain-games/actions) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/5cb8af4089c1337a6d5f/maintainability)](https://codeclimate.com/github/tmvfb/brain-games/maintainability)
 
 A set of simple games with numbers. To win at any game, user must complete 3 successful rounds. 
 
